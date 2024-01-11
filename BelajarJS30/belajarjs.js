@@ -104,3 +104,16 @@ function Spliit() {
 
 Spliit();
 
+// Excercise #1
+let challange = "30 Days of Javascript";
+console.log(challange);
+console.log(challange.length);
+console.log(challange.toUpperCase());
+console.log(challange.toLowerCase());
+console.log(challange.substr(3, 18));
+console.log(challange.slice(0, 3));
+console.log(challange.includes("Script"));
+console.log(challange.split());
+console.log(challange.split(" "));
+excercise1 = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon";
+console.log(excercise1.split(" "));
